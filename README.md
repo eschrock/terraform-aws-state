@@ -28,4 +28,4 @@ allows you to host multiple terraform states within the same bucket.
 To configure the terraform state, run the folowing:
 
     # terraform init
-    # terraform apply
+    # terraform apply -var id=my.site.com
